@@ -1,4 +1,4 @@
-#### Problem
+Problem
 Given two strings s and t, t is a substring of s if t is contained as a contiguous collection of symbols in s (as a result, t must be no longer than s).
 
 The position of a symbol in a string is the total number of symbols found to its left, including itself (e.g., the positions of all occurrences of 'U' in "AUGCUUCAGAAAGGUCUUACG" are 2, 5, 6, 15, 17, and 18). The symbol at position i of s is denoted by s[i].
@@ -11,11 +11,11 @@ Given: Two DNA strings s and t (each of length at most 1 kbp).
 
 Return: All locations of t as a substring of s.
 
-#### Sample Dataset
+Sample Dataset
 
 GATATATGCATATACTT
 ATAT
 
 
-#### Sample Output
+Sample Output
 2 4 10
