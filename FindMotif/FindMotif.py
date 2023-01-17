@@ -1,4 +1,6 @@
-with open('subs.txt', 'r') as f:
+import sys
+
+with open(sys.argv[1], 'r') as f:
     Seq = f.readline().strip()
     Motif = f.readline().strip()
     SeqLen = len(Seq)
@@ -12,3 +14,4 @@ with open('subs.txt', 'r') as f:
             ListAddr.append(i+1)
     # One of the methods of printing list in python3 (default space separated)
     print(*ListAddr)
+
