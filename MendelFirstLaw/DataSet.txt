@@ -1,0 +1,4 @@
+Sample Dataset
+20 21 20
+Sample Output
+0.75273
