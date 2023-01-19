@@ -7,13 +7,13 @@ import sys
 
 # 函数输入月份和每对繁殖年龄兔子生育兔子数
 def RabbitReccurence(a, b):
-    if(a == 1):
+    if a == 1:
         return (0, 1)
-    if (a == 2):
+    if a == 2:
         return (1, 0)
-    elif(a > 2):
+    elif a > 2:
         (c, d) = RabbitReccurence(a-1, b)
-        return(c + d, c * 2)
+        return(c + d, c * int(sys.argv[2]))
 
 # 前面导入sys模块后，使用sys.argv[num]调用参数，索引从1开始
 x, y = RabbitReccurence(int(sys.argv[1]), int(sys.argv[2]))
