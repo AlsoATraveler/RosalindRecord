@@ -7,8 +7,6 @@ import sys
 
 # 函数输入月份和每对繁殖年龄兔子生育兔子数
 def RabbitReccurence(a, b):
-    if a == 1:
-        return (0, 1)
     if a == 2:
         return (1, 0)
     elif a > 2:
