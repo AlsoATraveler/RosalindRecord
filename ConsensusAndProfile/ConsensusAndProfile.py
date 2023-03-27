@@ -69,3 +69,6 @@ if __name__ == '__main__':
 
 # 运行命令
 # python ConsensusAndProfile.py rosalind_cons.txt
+
+
+
